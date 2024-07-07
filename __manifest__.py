@@ -33,19 +33,24 @@ Key Features
         # 'views/menu_views.xml',
     ],
     'demo': [
+        #'data/mail_activity_type_demo.xml',
     ],
     'images': [
+        # 'static/src/img/default_image.png',
     ],
     'installable': True,
     'auto_install': False,
     'application': True,
     'assets': {
         'web.assets_backend': [
+            # 'mgmt_hospital/static/src/**/*',
         ],
         'web.assets_tests': [
+            # 'mgmt_hospital/static/tests/tours/**/*',
         ],
         'web.qunit_suite_tests': [
-
+            # 'mgmt_hospital/static/tests/**/*',
+            # ('remove', 'crm/static/tests/tours/**/*'),
         ],
     },
     'license': 'LGPL-3',
